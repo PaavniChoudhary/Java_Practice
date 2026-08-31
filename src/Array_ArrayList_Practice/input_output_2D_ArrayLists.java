@@ -1,7 +1,7 @@
 package Array_ArrayList_Practice;
 import java.util.Scanner;
 import java.util.ArrayList;
-public class input_output_2D_arrays {
+public class input_output_2D_ArrayLists {
     public static void main(String[] args){
         Scanner sc=new Scanner(System.in);
         System.out.println("enter length of arrayLists");
