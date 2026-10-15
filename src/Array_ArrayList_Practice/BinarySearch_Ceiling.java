@@ -1,7 +1,7 @@
 package Array_ArrayList_Practice;
 import java.util.Scanner;
 public class BinarySearch_Ceiling {
-    public static void main(){
+    public static void main(String[] args){
         Scanner sc=new Scanner (System.in);
         System.out.println("enter the length of the array");
         int l = sc.nextInt();
