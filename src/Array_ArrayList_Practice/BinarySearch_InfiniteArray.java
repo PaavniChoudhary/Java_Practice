@@ -3,8 +3,7 @@ import java.util.Scanner;
 public class BinarySearch_InfiniteArray {
     public static void main(String[] args){
         Scanner sc=new Scanner(System.in);
-        int[] a= {3, 5, 7, 9, 10, 90,
-                100, 130, 140, 160, 170, 200, 270, 300, 370};
+        int[] a= {3, 5, 7, 9, 10, 90, 100, 130, 140, 160, 170, 200, 270, 300, 370};
         int n= 300;
         int s=0;
         int e=1;
