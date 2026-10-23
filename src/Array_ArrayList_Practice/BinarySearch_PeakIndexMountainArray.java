@@ -1,6 +1,6 @@
 package Array_ArrayList_Practice;
 import java.util.Scanner;
-public class BinarySearch_MountainArray {
+public class BinarySearch_PeakIndexMountainArray {
     public static void main(String[] args) {
         Scanner sc=new Scanner(System.in);
         System.out.println("enter the length of the array");
