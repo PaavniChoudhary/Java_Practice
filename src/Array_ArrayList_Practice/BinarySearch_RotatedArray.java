@@ -27,6 +27,9 @@ public class BinarySearch_RotatedArray {
         if(a[pivot]==n){
             return pivot;
         }
+        if (n>=a[0]) {
+            return binarySearch(a,n,0,pivot-1);
+        }
         return binarySearch(a,n,pivot+1,a.length-1);
     }
     static int binarySearch(int[] a,int n,int s,int e){
